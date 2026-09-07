@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CockpitFit — Check Your HOTAS Fits Your DCS World Cockpit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <h1>Check Your HOTAS Fits Your DCS World Cockpit</h1>
+  <p class="tagline">Pick the controller you own (or are about to buy) and the module you fly. See how many of the module's core functions land on the stick and throttle, and which ones you'll push to keyboard.</p>
+</header>
+
+<main>
+  <section class="picker">
+    <div class="picker-field">
+      <label for="controller-select">Controller</label>
+      <select id="controller-select"></select>
+    </div>
+    <div class="picker-field">
+      <label for="module-select">DCS Module</label>
+      <select id="module-select"></select>
+    </div>
+  </section>
+
+  <section class="result">
+    <h2 id="result-heading"></h2>
+    <div class="result-meta">
+      <div><span class="meta-label">Controller has:</span> <span id="controller-slots"></span></div>
+      <div><span class="meta-label">Module needs:</span> <span id="module-needs"></span></div>
+    </div>
+    <p id="fit-summary" class="fit-summary"></p>
+
+    <table class="category-table">
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Functions needed</th>
+          <th>Slots covered</th>
+          <th>Left over</th>
+        </tr>
+      </thead>
+      <tbody id="category-rows"></tbody>
+    </table>
+
+    <div id="shortfall-notes" class="shortfall-notes"></div>
+
+    <div class="source-block">
+      <div class="source-line" id="controller-sources"></div>
+      <div class="source-line" id="module-sources"></div>
+    </div>
+  </section>
+
+  <section class="about">
+    <h2>What this counts</h2>
+    <p>"Core functions" means the essential bindable functions listed in each module's own official manual — flight controls, weapons release, sensor/radar switching, trim, gear/flaps, and radio — not every keybind DCS exposes. "Slots" means physical buttons, axes, and hats on the controller, counted from the manufacturer's own product page. One physical input covers one function; the tool does not know which functions you personally consider important, only how many exist and how many slots you have.</p>
+    <p>This tool reports counts and a suggested priority order (flight controls first, then weapons, trim, sensors, gear/flaps, comms). It does not tell you a controller is required or sufficient for any module — that judgment, and any modifier layers or shift states your own controller software supports, is yours.</p>
+  </section>
+
+  <section class="about">
+    <h2>Controllers and modules covered</h2>
+    <p>Controllers: Thrustmaster T.16000M FCS, Thrustmaster T.16000M FCS HOTAS, Thrustmaster HOTAS Warthog, Thrustmaster T-Flight HOTAS 4.</p>
+    <p>Modules: DCS A-10C II Tank Killer, DCS F/A-18C Hornet, DCS F-16C Viper, DCS UH-1H Huey.</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Built for r/hoggit. Every number links to the source it came from. Found a mistake, or want another controller or module added? Post in the thread — this list grows from what pilots actually fly.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
