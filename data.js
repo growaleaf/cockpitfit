@@ -49,6 +49,31 @@ const CONTROLLERS = [
     sources: [
       { label: "Thrustmaster — T-Flight HOTAS 4 product page", url: "https://www.thrustmaster.com/en-us/products/t-flight-hotas-4/" }
     ]
+  },
+  {
+    id: "t16000m-fcs-space-sim-duo",
+    name: "Thrustmaster T.16000M FCS Space Sim Duo",
+    note: "two ambidextrous joysticks, no dedicated throttle. The product page states each of the two sticks IS a T.16000M FCS joystick (16 buttons, 1 hat each); axes are carried over from that single-stick product page, which is the only page that states an axis count.",
+    buttons: 32,
+    axes: 8,
+    hats: 2,
+    tier: "pro",
+    sources: [
+      { label: "Thrustmaster — T.16000M FCS Space Sim Duo product page", url: "https://www.thrustmaster.com/en-us/products/t-16000m-fcs-space-sim-duo/" },
+      { label: "Thrustmaster — T.16000M FCS product page (per-stick axis spec)", url: "https://www.thrustmaster.com/en-us/products/t-16000m-fcs/" }
+    ]
+  },
+  {
+    id: "t-flight-hotas-x",
+    name: "Thrustmaster T.Flight HOTAS X",
+    note: "joystick + detachable throttle, entry-level — no hat switch",
+    buttons: 12,
+    axes: 5,
+    hats: 0,
+    tier: "pro",
+    sources: [
+      { label: "Thrustmaster — T.Flight HOTAS X product page", url: "https://www.thrustmaster.com/en-us/products/t-flight-hotas-x/" }
+    ]
   }
 ];
 
@@ -117,6 +142,40 @@ const MODULES = [
     total_core_functions: 8,
     sources: [
       { label: "DCS UH-1H Huey Flight Manual (Eagle Dynamics), Cyclic & Collective Control Stick, pp.37-39", url: "https://www.digitalcombatsimulator.com/upload/iblock/7c7/DCS%20UH-1H%20Flight%20Manual_EN.pdf" }
+    ]
+  },
+  {
+    id: "ka50-bs3",
+    name: "DCS: Ka-50 Black Shark 3",
+    core_functions: [
+      { category: "Flight Controls", count: 6 },
+      { category: "Trim", count: 1 },
+      { category: "Weapons", count: 2 },
+      { category: "Sensors/Radar", count: 5 },
+      { category: "Gear/Flaps", count: 1 },
+      { category: "Comms", count: 0 }
+    ],
+    total_core_functions: 15,
+    tier: "pro",
+    sources: [
+      { label: "DCS Ka-50 Black Shark 3 Flight Manual (Eagle Dynamics), Cyclic Control Stick / Collective Control Stick / Separate Engines Throttle Levers, pp.80-86", url: "https://www.digitalcombatsimulator.com/upload/iblock/ece/ak5ecs04jakt38ubluxzfjqpv5k3zp5p/DCS_BS3_Flight_Manual_EN.pdf" }
+    ]
+  },
+  {
+    id: "f15e",
+    name: "DCS: F-15E Strike Eagle",
+    core_functions: [
+      { category: "Flight Controls", count: 3 },
+      { category: "Trim", count: 1 },
+      { category: "Weapons", count: 4 },
+      { category: "Sensors/Radar", count: 7 },
+      { category: "Gear/Flaps", count: 1 },
+      { category: "Comms", count: 1 }
+    ],
+    total_core_functions: 17,
+    tier: "pro",
+    sources: [
+      { label: "DCS F-15E Strike Eagle Flight Manual (Eagle Dynamics), Front Cockpit Stick / Front Cockpit Throttles, pp.71-74", url: "https://www.digitalcombatsimulator.com/upload/iblock/ef0/rbw8lop98sr09dmn06mto8eqc0anpyrh/DCS_F-15E_Flight_Manual_EN.pdf" }
     ]
   }
 ];
