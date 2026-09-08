@@ -43,11 +43,11 @@ const CONTROLLERS = [
     id: "t-flight-hotas-4",
     name: "Thrustmaster T-Flight HOTAS 4",
     note: "joystick + throttle, entry-level",
-    buttons: 15,
+    buttons: 12,
     axes: 5,
-    hats: 1,
+    hats: 0,
     sources: [
-      { label: "Thrustmaster — T-Flight HOTAS 4 product page", url: "https://www.thrustmaster.com/en-us/products/t-flight-hotas-4/" }
+      { label: "Thrustmaster — T-Flight HOTAS 4 product page (via Wayback Machine, captured 2022-01-23; thrustmaster.com under maintenance 2026-09-08): \"HOTAS with 12 action buttons and 5 axes\", no hat switch mentioned. Corrected 2026-09-08 from a prior 15/5/1 figure — the WA-4 ViperFit worker re-verified this product against the archived page and found the button/hat counts wrong.", url: "https://web.archive.org/web/20220123153655/https://www.thrustmaster.com/en-us/products/t-flight-hotas-4/" }
     ]
   },
   {
