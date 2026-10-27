@@ -177,5 +177,22 @@ const MODULES = [
     sources: [
       { label: "DCS F-15E Strike Eagle Flight Manual (Eagle Dynamics), Front Cockpit Stick / Front Cockpit Throttles, pp.71-74", url: "https://www.digitalcombatsimulator.com/upload/iblock/ef0/rbw8lop98sr09dmn06mto8eqc0anpyrh/DCS_F-15E_Flight_Manual_EN.pdf" }
     ]
+  },
+  {
+    id: "ah64d",
+    name: "DCS: AH-64D Apache",
+    core_functions: [
+      { category: "Flight Controls", count: 1 },
+      { category: "Trim", count: 2 },
+      { category: "Weapons", count: 6 },
+      { category: "Sensors/Radar", count: 10 },
+      { category: "Gear/Flaps", count: 3 },
+      { category: "Comms", count: 1 }
+    ],
+    total_core_functions: 23,
+    tier: "pro",
+    sources: [
+      { label: "DCS AH-64D Flight Manual (Eagle Dynamics), Cyclic & Collective Hand Controls — Cyclic Grip / Collective Flight Grip / Collective Mission Grip, pp.136-141", url: "https://www.digitalcombatsimulator.com/upload/iblock/30e/j1dh7g3egpennjdngtub7uubwcqfgrrh/DCS%20AH-64D%20Flight%20Manual%20EN.pdf" }
+    ]
   }
 ];
