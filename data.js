@@ -194,5 +194,22 @@ const MODULES = [
     sources: [
       { label: "DCS AH-64D Flight Manual (Eagle Dynamics), Cyclic & Collective Hand Controls — Cyclic Grip / Collective Flight Grip / Collective Mission Grip, pp.136-141", url: "https://www.digitalcombatsimulator.com/upload/iblock/30e/j1dh7g3egpennjdngtub7uubwcqfgrrh/DCS%20AH-64D%20Flight%20Manual%20EN.pdf" }
     ]
+  },
+  {
+    id: "mi8mtv2",
+    name: "DCS: Mi-8MTV2",
+    core_functions: [
+      { category: "Flight Controls", count: 2 },
+      { category: "Trim", count: 3 },
+      { category: "Weapons", count: 2 },
+      { category: "Sensors/Radar", count: 0 },
+      { category: "Gear/Flaps", count: 0 },
+      { category: "Comms", count: 1 }
+    ],
+    total_core_functions: 8,
+    tier: "pro",
+    sources: [
+      { label: "DCS Mi-8MTV2 Flight Manual (Eagle Dynamics), 5.2 Flight Controls — Fig. 5.16 Pilot's Cyclic Control Stick / Fig. 5.19 Pilot's Collective Control Group, pp.79-84", url: "https://www.digitalcombatsimulator.com/upload/iblock/3a2/DCS-Mi-8MTV2_FlightManual_EN.pdf" }
+    ]
   }
 ];
