@@ -211,5 +211,22 @@ const MODULES = [
     sources: [
       { label: "DCS Mi-8MTV2 Flight Manual (Eagle Dynamics), 5.2 Flight Controls — Fig. 5.16 Pilot's Cyclic Control Stick / Fig. 5.19 Pilot's Collective Control Group, pp.79-84", url: "https://www.digitalcombatsimulator.com/upload/iblock/3a2/DCS-Mi-8MTV2_FlightManual_EN.pdf" }
     ]
+  },
+  {
+    id: "spitfire-lf-mk9",
+    name: "DCS: Spitfire LF Mk IX",
+    core_functions: [
+      { category: "Flight Controls", count: 0 },
+      { category: "Trim", count: 0 },
+      { category: "Weapons", count: 2 },
+      { category: "Sensors/Radar", count: 0 },
+      { category: "Gear/Flaps", count: 2 },
+      { category: "Comms", count: 0 }
+    ],
+    total_core_functions: 4,
+    tier: "pro",
+    sources: [
+      { label: "DCS Spitfire LF Mk IX Flight Manual (Eagle Dynamics), Figure 25: Control grip (p.58) / Figure 24: Throttle quadrant (p.56) / Armament narrative confirming the 3-stage trigger (p.153)", url: "https://www.digitalcombatsimulator.com/upload/iblock/4f3/DCS%20Spitfire%20IX%20Flight%20Manual%20EN.pdf" }
+    ]
   }
 ];
