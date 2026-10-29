@@ -228,5 +228,22 @@ const MODULES = [
     sources: [
       { label: "DCS Spitfire LF Mk IX Flight Manual (Eagle Dynamics), Figure 25: Control grip (p.58) / Figure 24: Throttle quadrant (p.56) / Armament narrative confirming the 3-stage trigger (p.153)", url: "https://www.digitalcombatsimulator.com/upload/iblock/4f3/DCS%20Spitfire%20IX%20Flight%20Manual%20EN.pdf" }
     ]
+  },
+  {
+    id: "p51d",
+    name: "DCS: P-51D Mustang",
+    core_functions: [
+      { category: "Flight Controls", count: 0 },
+      { category: "Trim", count: 0 },
+      { category: "Weapons", count: 2 },
+      { category: "Sensors/Radar", count: 0 },
+      { category: "Gear/Flaps", count: 0 },
+      { category: "Comms", count: 1 }
+    ],
+    total_core_functions: 3,
+    tier: "pro",
+    sources: [
+      { label: "DCS P-51D Mustang Flight Manual (Eagle Dynamics), Figure 31: Control Stick (p.52, Gun Trigger Switch / Bomb-Rocket Release Switch) / Figure 64: Throttle Quadrant (p.82, Throttle Control handle push-to-talk button, confirmed p.96-97)", url: "https://www.digitalcombatsimulator.com/upload/iblock/aa2/DCS-P-51D_Flight_Manual_EN.pdf" }
+    ]
   }
 ];
