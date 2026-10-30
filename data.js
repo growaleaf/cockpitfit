@@ -245,5 +245,22 @@ const MODULES = [
     sources: [
       { label: "DCS P-51D Mustang Flight Manual (Eagle Dynamics), Figure 31: Control Stick (p.52, Gun Trigger Switch / Bomb-Rocket Release Switch) / Figure 64: Throttle Quadrant (p.82, Throttle Control handle push-to-talk button, confirmed p.96-97)", url: "https://www.digitalcombatsimulator.com/upload/iblock/aa2/DCS-P-51D_Flight_Manual_EN.pdf" }
     ]
+  },
+  {
+    id: "bf109k4",
+    name: "DCS: Bf 109 K-4 Kurfürst",
+    core_functions: [
+      { category: "Flight Controls", count: 0 },
+      { category: "Trim", count: 0 },
+      { category: "Weapons", count: 4 },
+      { category: "Sensors/Radar", count: 1 },
+      { category: "Gear/Flaps", count: 0 },
+      { category: "Comms", count: 1 }
+    ],
+    total_core_functions: 6,
+    tier: "pro",
+    sources: [
+      { label: "DCS Bf 109 K-4 Flight Manual (Eagle Dynamics), Figure 60: Stick (p.74, Machineguns fire button A / MK 108 cannon & rockets fire button B1 / MK 108 cannon recharge button D / Bomb release button B2 / Gun camera button T) / Figure 88: Throttle Quadrant (p.100, Push To Talk Button)", url: "https://Digitalcombatsimulator.com/upload/iblock/46e/DCS%20Bf%20109%20K-4%20Flight%20Manual%20EN.pdf" }
+    ]
   }
 ];
