@@ -262,5 +262,22 @@ const MODULES = [
     sources: [
       { label: "DCS Bf 109 K-4 Flight Manual (Eagle Dynamics), Figure 60: Stick (p.74, Machineguns fire button A / MK 108 cannon & rockets fire button B1 / MK 108 cannon recharge button D / Bomb release button B2 / Gun camera button T) / Figure 88: Throttle Quadrant (p.100, Push To Talk Button)", url: "https://Digitalcombatsimulator.com/upload/iblock/46e/DCS%20Bf%20109%20K-4%20Flight%20Manual%20EN.pdf" }
     ]
+  },
+  {
+    id: "fw190d9",
+    name: "DCS: Fw 190 D-9",
+    core_functions: [
+      { category: "Flight Controls", count: 0 },
+      { category: "Trim", count: 0 },
+      { category: "Weapons", count: 6 },
+      { category: "Sensors/Radar", count: 0 },
+      { category: "Gear/Flaps", count: 0 },
+      { category: "Comms", count: 1 }
+    ],
+    total_core_functions: 7,
+    tier: "pro",
+    sources: [
+      { label: "DCS Fw 190 D-9 Flight Manual (Eagle Dynamics), Figure 36: Flight stick, trigger, and bomb release button (p.48, conventional trigger fires on-board armament / bomb release button drops bombs or fires underwing rockets) / Figure 72: Weapons Console (pp.83-84, rocket safety switch / rocket jettison switch / ZSK 244 bomb fusing selector bound as two discrete rotate-left/rotate-right commands per the Releasing Bombs procedure, p.123: \"to the left [LShift + B], to the right [LCtrl + B]\") / throttle-base Push-to-Talk button (p.85, confirmed p.130)", url: "https://www.digitalcombatsimulator.com/upload/iblock/301/DCS%20Fw%20190%20D-9%20Flight%20Manual%20EN.pdf" }
+    ]
   }
 ];
