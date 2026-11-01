@@ -269,15 +269,16 @@ const MODULES = [
     core_functions: [
       { category: "Flight Controls", count: 0 },
       { category: "Trim", count: 0 },
-      { category: "Weapons", count: 6 },
-      { category: "Sensors/Radar", count: 0 },
+      { category: "Weapons", count: 7 },
+      { category: "Sensors/Radar", count: 3 },
       { category: "Gear/Flaps", count: 0 },
       { category: "Comms", count: 1 }
     ],
-    total_core_functions: 7,
+    total_core_functions: 11,
     tier: "pro",
     sources: [
-      { label: "DCS Fw 190 D-9 Flight Manual (Eagle Dynamics), Figure 36: Flight stick, trigger, and bomb release button (p.48, conventional trigger fires on-board armament / bomb release button drops bombs or fires underwing rockets) / Figure 72: Weapons Console (pp.83-84, rocket safety switch / rocket jettison switch / ZSK 244 bomb fusing selector bound as two discrete rotate-left/rotate-right commands per the Releasing Bombs procedure, p.123: \"to the left [LShift + B], to the right [LCtrl + B]\") / throttle-base Push-to-Talk button (p.85, confirmed p.130)", url: "https://www.digitalcombatsimulator.com/upload/iblock/301/DCS%20Fw%20190%20D-9%20Flight%20Manual%20EN.pdf" }
+      { label: "DCS Fw 190 D-9 Flight Manual (Eagle Dynamics), Figure 36: Flight stick, trigger, and bomb release button (p.48, conventional trigger fires on-board armament / bomb release button drops bombs or fires underwing rockets) / Figure 72: Weapons Console (pp.83-84, rocket safety switch / rocket jettison switch / ZSK 244 bomb fusing selector bound as two discrete rotate-left/rotate-right commands per the Releasing Bombs procedure, p.123: \"to the left [LShift + B], to the right [LCtrl + B]\") / throttle-base Push-to-Talk button (p.85, confirmed p.130)", url: "https://www.digitalcombatsimulator.com/upload/iblock/301/DCS%20Fw%20190%20D-9%20Flight%20Manual%20EN.pdf" },
+      { label: "Combat Employment (pp.120-122): guns master arm switch [C] (p.120, step 1 of Guns procedure) / EZ 42 gunsight gyro power switch [M] (p.120, step 2) / target wingspan knob, increase [,] decrease [/] (p.121, step 3) / throttle twist grip range-to-target, increase [;] decrease [.] (p.121, step 4)", url: "https://www.digitalcombatsimulator.com/upload/iblock/301/DCS%20Fw%20190%20D-9%20Flight%20Manual%20EN.pdf" }
     ]
   }
 ];
