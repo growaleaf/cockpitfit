@@ -74,6 +74,17 @@ const CONTROLLERS = [
     sources: [
       { label: "Thrustmaster — T.Flight HOTAS X product page", url: "https://www.thrustmaster.com/en-us/products/t-flight-hotas-x/" }
     ]
+  },
+  {
+    id: "logitech-x56",
+    name: "Logitech G X56 H.O.T.A.S.",
+    note: "joystick + throttle, includes thumb mini-sticks",
+    buttons: 31,
+    axes: 13,
+    hats: 5,
+    sources: [
+      { label: "Logitech G — X56 H.O.T.A.S. product page (logitechg.com, fetched 2026-11-04): 189+ programmable controls, customizing every one of its 13 axes, 5 HATS, and 31 programmable buttons over three modes.", url: "https://www.logitechg.com/en-us/shop/p/x56-space-flight-vr-simulator-controller" }
+    ]
   }
 ];
 
