@@ -53,14 +53,14 @@ const CONTROLLERS = [
   {
     id: "t16000m-fcs-space-sim-duo",
     name: "Thrustmaster T.16000M FCS Space Sim Duo",
-    note: "two ambidextrous joysticks, no dedicated throttle. The product page states each of the two sticks IS a T.16000M FCS joystick (16 buttons, 1 hat each); axes are carried over from that single-stick product page, which is the only page that states an axis count.",
-    buttons: 32,
+    note: "two ambidextrous T.16000M FCS joysticks sold together as one HOSAS bundle. The bundle's own page states 30 action buttons as its headline spec — not 2x16 (=32), which is how this entry was previously (incorrectly) computed; corrected 2026-11-06. The page states each stick has a multidirectional point-of-view hat (8 directions), so 2 sticks = 2 hats. The page never states a combined (or per-stick) axis count for this bundle; axes shown here is this product's own derivation — 2 x 4, carried over from the standalone T.16000M FCS joystick's own sourced axis spec (this file's t16000m-fcs entry), since each Space Sim Duo stick is that same joystick.",
+    buttons: 30,
     axes: 8,
     hats: 2,
     tier: "pro",
     sources: [
-      { label: "Thrustmaster — T.16000M FCS Space Sim Duo product page", url: "https://www.thrustmaster.com/en-us/products/t-16000m-fcs-space-sim-duo/" },
-      { label: "Thrustmaster — T.16000M FCS product page (per-stick axis spec)", url: "https://www.thrustmaster.com/en-us/products/t-16000m-fcs/" }
+      { label: "Thrustmaster — T.16000M FCS Space Sim Duo product page, re-fetched 2026-11-06: \"30 ACTION BUTTONS\" (headline spec) and \"comprises two T.16000M FCS joysticks, each with 16 action buttons... A multidirectional point of view hat (8 directions)\" (narrative, per stick) — no axis count stated anywhere on this page", url: "https://www.thrustmaster.com/en-us/products/t-16000m-fcs-space-sim-duo/" },
+      { label: "Thrustmaster — T.16000M FCS product page (per-stick axis spec, used to derive the bundle's 8-axis total)", url: "https://www.thrustmaster.com/en-us/products/t-16000m-fcs/" }
     ]
   },
   {
